@@ -35,6 +35,6 @@ def what_time(friend):
     # пусть она вернет время у друга из аргумента friend
     city = DATABASE[friend]
     time_sity = dt.timedelta(hours = UTC_OFFSET[city]) + dt.datetime.utcnow()
-    return time_sity
+    return time_sity.strftime('%H:%M')
 
 print(what_time('Алина'))
