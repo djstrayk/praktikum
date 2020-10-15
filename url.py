@@ -6,7 +6,7 @@ url = 'https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BA%20%D0%B1%D0%B5%D1%81%D0
 # разбейте строку по знаку =, и возьмите
 # второй элемент получившегося списка
 
-question = (url.split('=')[1])  # сохраните его в переменной question
+question = (url.split('=')[1]) # сохраните его в переменной question
 
 # напечатайте на экран запрос в расшифрованном виде
 print(urllib.parse.unquote(question))  # ваш код здесь
