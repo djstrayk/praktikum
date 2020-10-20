@@ -4,7 +4,7 @@ import requests
 url = 'https://wttr.in'  # не изменяйте значение URL
 
 weather_parameters = {
-    '1': '',
+    '0': '',
     'T': '',
     'M': '',
     'lang': 'ru'
